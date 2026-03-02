@@ -1,0 +1,21 @@
+# 环境变量与密钥
+.env
+*.tar.gz
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 数据与日志
+data/*.db
+logs/
+data/reports/
+
+# 大模型权重目录 (GitHub 单个文件限制 100MB)
+qwen2.5-72b-awq-lora/
+qwen2.5-72b-awq-lora-v2/
+model/qwen2.5-72b-awq/
+
+# 其他
+.vscode/
+.idea/
